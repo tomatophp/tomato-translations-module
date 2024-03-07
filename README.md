@@ -16,7 +16,7 @@ you can join our discord server to get support [TomatoPHP](https://discord.gg/VZ
 
 ## Docs
 
-you can check docs of this package on [Docs](https://docs.tomatophp.com/tomato-translations)
+you can check docs of this package on [Docs](https://docs.tomatophp.com/plugins/tomato-translations)
 
 ## Changelog
 

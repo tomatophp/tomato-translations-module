@@ -24,7 +24,6 @@ class TomatoTranslationsServiceProvider extends ServiceProvider
         $this->registerCommands();
         $this->registerCommandSchedules();
         $this->registerTranslations();
-        $this->registerConfig();
         $this->registerViews();
         $this->loadMigrationsFrom(module_path($this->moduleName, 'Database/migrations'));
         $this->registerPermissions();
@@ -121,6 +120,7 @@ class TomatoTranslationsServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
+        $this->registerConfig();
         $this->app->register(RouteServiceProvider::class);
     }
 
